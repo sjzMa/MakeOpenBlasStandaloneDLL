@@ -8,7 +8,9 @@ e.g.  mingw-w64-x86_64-gcc and mingw-w64-x86_64-gfortran
 
 cd ~
 cp ../../mingw64/bin/ar.exe ../../mingw64/bin/x86_64-w64-mingw32-ar.exe
+
 cp ../../mingw64/bin/ranlib.exe ../../mingw64/bin/x86_64-w64-mingw32-ranlib.exe
+
 
 cd /you/path/openblas-x.x.x
 
