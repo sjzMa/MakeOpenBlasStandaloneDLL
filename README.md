@@ -18,10 +18,15 @@ NO_AFFINITY=1 USE_OPENMP=1 DYNAMIC_ARCH=1
 # ERROR
 if you see following error:
 libgfortran.a(write.o):(.text$get_precision+0x156): undefined reference to `quadmath_snprintf'
+
 libgfortran.a(write.o):(.text$get_float_string+0x170): undefined reference to `quadmath_snprintf'
+
 libgfortran.a(write.o):(.text$get_float_string+0xa62): undefined reference to `quadmath_snprintf'
+
 libgfortran.a(write.o):(.text$get_float_string+0x165c): undefined reference to `quadmath_snprintf'
+
 libgfortran.a(write.o):(.text$get_float_string+0x173a): undefined reference to `quadmath_snprintf'
+
 collect2.exe: error: ld returned 1 exit status
 
 cd /you/path/openblas-x.x.x/export
