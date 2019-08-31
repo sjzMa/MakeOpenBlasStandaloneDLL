@@ -33,7 +33,8 @@ cd /you/path/openblas-x.x.x/export
 
 -defaultlib:advapi32 -lgfortran -lquadmath -defaultlib:advapi32 -lgfortran -lgomp
 
-like this
+like this:
+
 x86_64-w64-mingw32-gcc -static-libgcc -lgomp -static-libstdc++ -static -ggdb -lquadmath -O2 
 -DMS_ABI -DMAX_STACK_ALLOC=2048 -fopenmp -Wall -m64 -DF_INTERFACE_GFORT -DNO_AVX512 -DSMP_SERVER 
 -DUSE_OPENMP -DNO_WARMUP -DMAX_CPU_NUMBER=4 -DMAX_PARALLEL_NUMBER=1 -DVERSION=\"0.3.6\" -DASMNAME= 
